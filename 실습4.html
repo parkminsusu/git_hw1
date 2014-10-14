@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title border="1">LogIn Page</title>
+	<meta charset = "utf-8">
+</head>
+	<body>
+		<form action="url" method="post">
+		<table border="1">
+			<tr>
+				<td><b>&nbsp&nbsp아이디&nbsp</b></td>
+				<td><input type = "text" name="id" size="10"/></td>
+				<td align = left colspan="2"><input type = "button" value="중복조회"</td>
+			</tr>
+			<tr>
+				<td align=center><b>&nbsp&nbsp비밀번호&nbsp&nbsp</b></td>
+				<td ><input type = "text" name="password" size="10"/></td>
+				<td><b>&nbsp&nbsp&nbsp확인&nbsp&nbsp&nbsp </b></td>
+				<td><input type = "text" name="check" size="10"/></td> 
+			</tr>
+			<tr>
+				<td><b>&nbsp&nbsp이름</b></td>
+				<td><input type = "text" name = "name" size="10"/></td>
+			</tr>
+			<tr>
+				<td>&nbsp&nbsp<b>이메일</b></td>
+				<td><input type="text" name="email" size="10"/></td>
+			</tr>
+			<tr>
+				<td>&nbsp&nbsp<b>성별</b>&nbsp&nbsp</td>
+				<td colspan="3" align=left><input type="radio" name="gender" value="man"/>남&nbsp <input type="radio" name="gender" value="girl"/>여
+			</tr>
+			<tr>
+				<td><b>&nbsp&nbsp지역&nbsp&nbsp</b></td>
+				<td colsapn="2" align=left><select name="region">
+					<option value="seoul">서울</option>
+						<option value="busan">부산</option>
+							<option value="daejeon">대전</option>
+						</td>
+			</tr>
+			<tr>
+				<td colsapn="4"><input type="checkbox" name="agree"/>약관에 동의합니다.</td>
+			</tr>
+			<tr>
+				<td colspan="4"><input type="button" name="submit"
+					value="회원가입"/></td>
+			</tr>
+
+		</table>
+		</form>
+	</body>
+</html>
